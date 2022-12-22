@@ -1,0 +1,189 @@
+body{
+    background: url(https://assets.nflxext.com/ffe/siteui/vlv3/e89c9679-2f5f-491d-924c-c58924a8ee4b/8ec27a1d-02ce-4489-b320-a95106906f5d/IN-en-20221121-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+    background-size: 1350px 650px;
+    background-repeat: no-repeat;
+    background-color: rgb(7, 7, 7);
+    color: white;
+    box-sizing: border-box;
+    font-family :  sans-serif;
+}  
+
+nav{
+    display:flex;
+    justify-content: center; 
+    justify-content: space-around;
+}
+
+nav .img img{
+    width: 17%;
+    margin-top: 10px ;
+}
+
+nav .btn{
+    display: flex;
+}
+
+.btn .eng{
+    margin: 15px 15px ;
+    width: 105px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    border: solid;
+}
+
+.btn .sign{
+    margin: 15px 15px ;
+    width: 105px;
+    height: 35px;
+    color: white;
+    background-color: red;
+    border-color: red;
+    border-radius: 3px;
+}
+
+.btn .eng:hover{
+    background-color: transparent;
+}
+
+
+.btn .sign:hover{
+    background-color: transparent;
+
+}
+
+.main{
+    text-align: center;
+}
+
+.main h1{
+    font-size: 60px;
+}
+
+.main h3{
+font-size: 35px;
+}
+
+.main p {
+    font-size: 22px
+}
+
+.input{
+    text-align: center;
+}
+
+.input input{
+    height: 45px;
+    width: 500px;
+    font-size: 22px;
+}
+
+.input{
+    display: flex;
+    justify-content: center;
+
+}
+
+.input button{
+    width: 150px;
+    height: 50.5px;
+    background-color: red;
+    border: none;
+    font-size: 22px;
+    color: white;
+}
+
+.first{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 134px;
+    padding: 68px;
+    border-top: 4px solid grey
+    ; 
+}
+
+.first img{
+    width: 32%;
+    margin: 50px;
+}
+
+.first h1{
+    font-size: 55px;
+    margin-top: 250px;
+}
+
+.first p{
+    font-size: 25px;
+}
+
+.buttons{
+   border-top: solid 5px grey;
+}
+
+.buttons h1{
+    text-align: center;
+    font-size: 44px;
+    margin-top: 33px;
+}
+
+.buttons button{
+    width: 600px;
+    height: 60px;
+    background-color: grey;
+    color: white;
+    font-size: 25px;
+    margin-left: 27%;
+    margin-bottom: 10px;
+    text-align: left;
+    border-bottom: solid grey 3px;
+
+}
+.search{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 90px;
+    border-bottom: solid 4px grey;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+
+.search input{
+    height: 45px;
+    width: 500px;
+    font-size: 22px;
+    margin-bottom: 80px;
+}
+
+.search p{
+    font-size: 22px
+}
+
+
+.search button{
+    width: 150px;
+    height: 50.5px;
+    background-color: red;
+    border: none;
+    font-size: 22px;
+    color: white;
+
+}
+
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    display: inline-block;
+    margin-left: 12%;
+    text-align: left;
+    align-items: flex-start;
+    margin-bottom: 50px;
+}
+
+p{
+    text-align: center;
+}
